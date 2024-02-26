@@ -17,7 +17,7 @@ const useCloudflareImageUploader = () => {
                 }
             );
 
-            console.log("Response from Cloudflare API:", response.data); // Agregar esta línea
+            console.log("Response from Cloudflare API:", response.data); 
 
             const { result } = response.data;
             if (result && result.variants) {
